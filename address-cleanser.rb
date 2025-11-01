@@ -1,14 +1,14 @@
 class AddressCleanser < Formula
   desc "Parse, validate, and format US addresses"
   homepage "https://github.com/joshuboi77/address-cleanser"
-  version "1.0.12"
+  version "1.0.13"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/joshuboi77/address-cleanser/releases/download/v1.0.12/address-cleanser-macos-arm64.zip"
-      sha256 "04bcbba79157c8421eb0a387f00668cd66f874593d8610349d15bb4eb5dbe72a"
+      url "https://github.com/joshuboi77/address-cleanser/releases/download/v1.0.13/address-cleanser-macos-arm64.zip"
+      sha256 "0d8e0914425da57589d9cd7f837eadd0e7e6d87072c97e311ad1e44811667ae0"
     else
-      url "https://github.com/joshuboi77/address-cleanser/releases/download/v1.0.12/address-cleanser-macos-x86_64.zip"
+      url "https://github.com/joshuboi77/address-cleanser/releases/download/v1.0.13/address-cleanser-macos-x86_64.zip"
       sha256 "PLACEHOLDER"
     end
   end
